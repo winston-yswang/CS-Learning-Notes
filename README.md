@@ -1,1 +1,1 @@
-# CS-Notes
+# CS-Learning-Notes
