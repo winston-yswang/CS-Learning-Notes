@@ -1,5 +1,3 @@
-[TOC]
-
 ## 数据结构与算法
 
 ### 双指针
@@ -100,10 +98,7 @@
 
 
 
-## 参考来源
+## 说明
 
-- [[youngyangyang04](https://github.com/youngyangyang04)/**[leetcode-master](https://github.com/youngyangyang04/leetcode-master)**] : 一个很棒的leetcode题解项目
+本项目属于个人自用的学习笔记，若涉及侵权请#issue联系我，谢谢~
 
-- [廖雪峰Java教程](https://www.liaoxuefeng.com/wiki/1252599548343744)：Java SE入门不错的中文教程
-
-- [尚硅谷](https://space.bilibili.com/302417610)：免费提供许多编程技术在线课程
