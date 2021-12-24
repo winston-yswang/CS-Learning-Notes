@@ -27,28 +27,42 @@
 
 
 
+### 前缀和、差分
+
+1. [前缀后缀和](./notes/problems/期末预测之最佳阈值.md)
+2. [二维前缀和](./notes/problems/邻域均值.md)
+3. [差分矩阵](./notes/problems/差分矩阵.md)
+
+
+
 ### 其他
 
 1. [常见的排序归纳](./notes/排序算法.md)
 2. [位运算算法归纳](./notes/位运算算法.md)
 3. [线段树分析](./notes/线段树.md)
 4. [KMP算法](./notes/KMP算法.md)
+5. [全排列算法](./notes/全排列算法.md)
 
 
 
 
 
-## 操作系统
+## 计算机基础
+
+### 计算机网络
+
+1. [物理层与数据链路层基础](./notes/计算机网络-物理层与数据链路层.md)
+2. [网络层基础](./notes/计算机网络-网络层.md)
+3. [传输层基础](./notes/计算机网络-传输层.md)
+4. [应用层基础](./notes/计算机网络-应用层.md)
+
+### 操作系统
+
+1. [操作系统基础](./notes/操作系统.md)
+
+### 数据库
 
 
-
-
-
-## 计算机网络
-
-
-
-## 数据库
 
 
 
@@ -57,7 +71,9 @@
 ### 编程基础
 
 1. [JUC并发编程](./notes/JUC并发编程.md)
-2. [Java泛型中的<? extends T>和<? super T>](./notes/Java泛型中的extends和super.md)
+2. [Java基础问题](./notes/Java基础问题.md)
+3. [JVM](./notes/JVM.md)
+4. [spring基础知识](./notes/spring.md)
 
 
 
@@ -67,25 +83,36 @@
 
 
 
+
+
 ### 中间件
 
 1. [zookeeper](docs/zookeeper)
 2. [Docker](./notes/Docker.md)
-3. [netty](docs/netty)
+3. [netty资料](docs/netty)
 
 
 
 
 
-## 工具
+## 面经问题汇总
 
-1. **Git**：[Git入门](./notes/Git入门.md)
+1. [计算机网络常见面试题](./notes/计算机网络常见面试题.md)
+2. [操作系统常见面试题](./notes/操作系统常见面试题.md)
+3. [JVM常见面试题](./notes/JVM常见面试题.md)
+4. [redis常见面试题](./notes/redis常见面试题.md)
+5. [Mysql常见面试题](./notes/Mysql常用面试题.md)
+6. [并发常见面试题](./notes/并发常见面试题.md)
+
+
 
 
 
 ## 课程笔记
 
 1. [《微观经济学基础》浙江大学](./notes/《微观经济学基础》浙江大学.md)
+
+
 
 
 
@@ -101,4 +128,3 @@
 ## 说明
 
 本项目属于个人自用的学习笔记，若涉及侵权请#issue联系我，谢谢~
-
