@@ -41,7 +41,7 @@
 2. [位运算算法归纳](./notes/位运算算法.md)
 3. [线段树分析](./notes/线段树.md)
 4. [KMP算法](./notes/KMP算法.md)
-5. [全排列算法](./notes/全排列算法.md)
+5. [全排列算法](./notes/problems/全排列问题.md)
 
 
 
