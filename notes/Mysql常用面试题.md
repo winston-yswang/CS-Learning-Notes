@@ -277,7 +277,7 @@ INSERT INTO `test` (`value`) VALUES (1), (2), (3)
 
 ![img](pics\15ff4aeb110986b62a169308b58d333b.png)
 
-mysql 主要分为两层，与客户端直接交互的是 server 层，包括连接的简历和管理、词法分析、语法分析、执行计划与具体 sql 的选择都是在 server 层中进行的，binlog 就是在 server 层中由 mysql server 实现的，而 innodb 作为具体的一个存储引擎，他通过 redolog 实现了 crash safe 的支持。
+mysql 主要分为两层，与客户端直接交互的是 server 层，包括连接的建立和管理、词法分析、语法分析、执行计划与具体 sql 的选择都是在 server 层中进行的，binlog 就是在 server 层中由 mysql server 实现的，而 innodb 作为具体的一个存储引擎，他通过 redolog 实现了 crash safe 的支持。
 
 #### redo log的写入
 
@@ -462,6 +462,16 @@ Java 并发包下面提供了一系列的 Atomic 原子类，比如说 AtomicInt
 在大量线程高并发更新 AtomicInteger 的时候，这会有大量的更新失败线程，会导致大量线程空循环，自旋转，性能和效率都不是特别好。那么如何优化呢？
 
 Java8 有一个新的类，LongAdder，它就是尝试使用分段 CAS 以及自动分段迁移的方式来大幅度提升多线程高并发执行 CAS 操作的性能。
+
+
+
+补充问题：
+
+1、为什么不在优化器前做权限判断？
+
+https://zhuanlan.zhihu.com/p/421260633
+
+https://www.cnblogs.com/geaozhang/p/6819648.html
 
 
 
